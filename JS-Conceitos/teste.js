@@ -1,4 +1,4 @@
-// console.log('Hello World!') 
+console.log('Hello World!') 
 // // node nomedoarquivo.ts - para rodar
 
 // // const - atribui valor e não muda
@@ -8,8 +8,10 @@
 
 
 // let steveRogers = 'Capitão América'
-// var tonyStark = 'Homem de Ferro'
+// tonyStark = 'Homem de Ferro'
 // console.log('Super heróis da Marvel: '+steveRogers+" e "+tonyStark)
+
+// var tonyStark
 
 // let pagamento = 1500.0
 // var conta = 2356
@@ -41,21 +43,21 @@
 // let resultado = calcularPotencia(2, 3) 
 // console.log('Resultado: '+resultado)
 
-let calcularPotencia = new Function("base, expoente", "return base**expoente") //método construtor
+// let calcularPotencia = new Function("base, expoente", "return base**expoente") //método construtor
 
-let resultado = calcularPotencia(2, 3)
-console.log('Resultado: '+resultado)
+// let resultado = calcularPotencia(2, 3)
+// console.log('Resultado: '+resultado)
 
-const personagem = {
-    apelido: "Capitão América",
-    nome: "Steve Rogers",
-    habilidades: "Força e velocidade",
-    descricao: function () {
-        return "Nome: "+this.nome + "| Apelido: "+this.apelido + "| Poderes: "+this.habilidades // this = autoreferência, se refere ao proprietário da função, ou objeto
-    }
-}
+// const personagem = {
+//     apelido: "Capitão América",
+//     nome: "Steve Rogers",
+//    habilidades: "Força e velocidade",
+//    descricao: function () {
+//        return "Nome: "+this.nome + "| Apelido: "+this.apelido + "| Poderes: "+this.habilidades // this = autoreferência, se refere ao proprietário da função, ou objeto
+//    }
+//}
 
-console.log(personagem.descricao())
+//console.log(personagem.descricao())
 
 // soma = function(valor1, valor2) { //função anônima, dentro de variável
 //     return valor1 + valor2
@@ -63,7 +65,7 @@ console.log(personagem.descricao())
 
 // console.log("Valor da soma: " +soma(3,5))
 
-soma = (valor1, valor2) => valor1 + valor2 
+//soma = (valor1, valor2) => valor1 + valor2 
 
-console.log("Valor da soma: " +soma(3, 5))
+//console.log("Valor da soma: " +soma(3, 5))
 
